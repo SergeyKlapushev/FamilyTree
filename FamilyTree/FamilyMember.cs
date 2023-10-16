@@ -32,40 +32,6 @@ namespace FamilyTree
 
 
         // Конструктры
-        public FamilyMember()
-        {
-
-        }
-        public FamilyMember(string name)
-        {
-            this.name = name;
-        }
-        public FamilyMember(string name, string surname)
-        {
-            this.name = name;
-            this.surname = surname;
-        }
-        public FamilyMember(string name, string surname, string sex)
-        {
-            this.name = name;
-            this.surname = surname;
-            this.sex = sex;
-        }
-        public FamilyMember(string name, string surname, string sex, FamilyMember spouse)
-        {
-            this.name = name;
-            this.surname = surname;
-            this.sex = sex;
-            this.spouse = spouse;
-        }
-        public FamilyMember(string name, string surname, string sex, FamilyMember spouse, FamilyMember mother)
-        {
-            this.name = name;
-            this.surname = surname;
-            this.sex = sex;
-            this.spouse = spouse;
-            this.mother = mother;
-        }
         public FamilyMember(string name, string surname, string sex, FamilyMember spouse, FamilyMember mother, FamilyMember father)
         {
             this.name = name;

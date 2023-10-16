@@ -4,12 +4,12 @@
     {
         static void Main(string[] args)
         {
-            FamilyMember Otech = new FamilyMember("Михаил", "Клапышев", "Мужской");
-            FamilyMember Mama = new FamilyMember("Екатерина", "Смирнова", "Женский");
+            FamilyMember Otech = new FamilyMember("Михаил", "Клапышев", "Мужской", null, null, null) ;
+            FamilyMember Mama = new FamilyMember("Екатерина", "Смирнова", "Женский", null, null, null);
 
             Otech.setSpouse(Mama);
-            Console.WriteLine(Otech.getInformation());
             Console.WriteLine(Mama.getInformation());
+            Console.WriteLine(Otech.getInformation());
         }
     }
 }
